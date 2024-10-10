@@ -1,0 +1,42 @@
+.main-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70dvh;
+    background-color: aqua;
+    background-image: url(../../../public/img/1b.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.p-telefono{
+    margin:10px 0;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 900;
+    text-align: center;
+    width: 200px;
+}
+
+.llamar{
+    padding: 10px;
+    background-color: #25d366;
+    border-radius: 10px;
+}
+
+.llamar:hover{
+    background-color: #128c7e;
+    transform: translate(scale(1.21));
+}
